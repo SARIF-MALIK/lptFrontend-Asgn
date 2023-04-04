@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+.topbarContainer{
+    height: 90px;
+    width: 100%;
+    background-color: #22506C;
+    color: white; 
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 12px 12px 0 0 ;
+    border: 1px solid black;
+}
+
+.topbarLeft{
+    flex: 2;
+    /* background-color: aqua; */
+    display: flex;
+    margin: auto;
+}
+.logoImage{
+    height: 60px;
+    width: 60px;
+    transform: scaleX(-1);
+    margin-left: 20px;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: auto 5px;
+}
+
+.topbarCenter{
+    flex: 6;
+    /* background-color: aquamarine; */
+}
+
+.searchInput{
+    width: 80%;
+    height: 80%;
+    border: none;
+    margin-left: 10px;
+}
+.searchInput:focus{
+    outline: none;
+}
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    }
+
+.topbarIcons{
+    display: flex;
+}
+
+.topbarIconItem{
+    margin-right: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.searchbar{
+    width: 90%;
+    height: 55px; 
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.searchIcon{
+    margin-left: 10px;
+    color: rgb(15, 15, 15);
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.topbarUser{
+    display: flex;
+}
+.topbarUserDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end; 
+    margin-left: 10px;
+}
+.topbarImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topbarUserProfile{
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: #FFD600;
+    border-radius: 50%; 
+    color: black;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 12px;    
+}

@@ -1,0 +1,10 @@
+.feed{
+    display: flex;
+    flex: 7;
+    background-color: red;
+}
+
+.feedWrapper{
+    display: flex;
+}
+
